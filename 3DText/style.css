@@ -1,0 +1,29 @@
+center {
+	margin-top: 150px;
+}
+
+html {
+background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	font-size: 6vw;
+	color: #9E3C00;
+	margin: 30px;
+	text-shadow: 25px;
+}
+
+.z-text {
+  transform: rotateX(30deg) rotateY(-30deg);
+  transition: transform 1s;
+}
+
+[data-z]:hover .z-text {
+  transform: rotateX(-30deg) rotateY(30deg)
+}
+
+.z-layer:not(:first-child) {
+	color: #592000 ;
+}
